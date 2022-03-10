@@ -1,0 +1,10 @@
+<html> 
+<body> 
+    <a href="example.py"><input type=”button” value="call_flask_funtion"></a> 
+</body> 
+</html> 
+<?php 
+$command = escapeshellcmd('/usr/python37/myfile.py'); 
+$output = shell_exec($command); 
+echo $output; 
+?> 
